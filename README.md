@@ -58,7 +58,7 @@ II- Dataset Preparation
  
  3.  Select pcap File using Browse buton
  
- 4. Set Packet Max. Coun to 10000000
+ 4. Set Packet Max. Count to 10000000
  
  5. Click Start Parse
  
@@ -67,4 +67,4 @@ II- Dataset Preparation
  
  For DeepDAD machine learning module please refer readme file from link below:
  
- https://github.com/mannirulz/BotDAD/blob/master/ML/Readme.MD
+ https://github.com/mannirulz/DeepDAD/blob/master/ML/Readme.MD
