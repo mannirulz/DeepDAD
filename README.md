@@ -67,4 +67,4 @@ II- Dataset Preparation
  
  For DeepDAD machine learning module please refer readme file from link below:
  
- https://github.com/mannirulz/DeepDAD/blob/master/ML/Readme.MD
+  https://github.com/mannirulz/DeepDAD/blob/master/ML/README.md
