@@ -54,34 +54,17 @@ II- Dataset Preparation
  
  1. Download and extract the zip from the github repository to DeepDAD Folder
  
- 2.  <<botDAD_Path>>:>    C:\python27\Python.exe GUI.py
-     
+ 2.  <<DeepDAD_Path>>:>    C:\python27\Python.exe GUI.py
  
-     
-        
+ 3.  Select pcap File using Browse buton
  
-
+ 4. Set Packet Max. Coun to 10000000
  
-
-6. Following files will be generated at the successful completion of the script
+ 5. Click Start Parse
  
-    a) In the same folder as the pcap file
-    
-                  DNS Requests    : 20160421_150521.pcap_req.csv
-
-                  DNS Response    : 20160421_150521.pcap_res.csv
-
-                  PCap Parser Log : 20160421_150521.pcap_log.csv
-      
-      
-     b) In the Output folder
-     
-                 Hosts DNS fingerpeint : DNS_FP.csv
-
-                 Anomaly detection     : DNS_FP_Anomaly.csv
-     
-       
  
- For BotDAD machine learning module please refer readme file from link below:
+           
+ 
+ For DeepDAD machine learning module please refer readme file from link below:
  
  https://github.com/mannirulz/BotDAD/blob/master/ML/Readme.MD
