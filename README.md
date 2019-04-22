@@ -49,7 +49,7 @@ II- Dataset Preparation
  
  
  ---------------------------------
- Running BotDAD
+ Running DeepDAD
  ---------------------------------
  
  1. Download and extract the zip from the github repository to DeepDAD Folder
