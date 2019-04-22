@@ -151,7 +151,7 @@ class DeepDAD:
         # Row 1a
         Label(self.top, text="Filename", font="Times 14 bold ").grid(row=self.rownum, sticky="w", column=0, columnspan=1)
         self.txtfilename = Text(height=1, width=60)
-        self.txtfilename.insert(END, "C:/Users/MSingh/Google Drive/PhD/20160421_150521.pcap")
+        self.txtfilename.insert(END, "Select *.pcap file")
         self.txtfilename.config(state=DISABLED)
         self.txtfilename.grid(row=self.rownum, column=1,sticky="w", columnspan=2)
         self.rownum = self.rownum + 1
