@@ -7,7 +7,7 @@ DeepDAD is a GUI based Bots DNS Anomaly detection tool which considers multipoin
 I - Installation Instruction 
 ---------------------------------
 
-1. Install Python 2.7.9 (https://www.python.org/downloads/release/python-279/)
+1. Install Python 3.6.8 (https://www.python.org/downloads/release/python-368/)
 2. Install Pycharm Community Edition (Optional)
 3. Install Following Packages
 
@@ -22,6 +22,8 @@ I - Installation Instruction
       (Note: in case of error, upgrade pip to latest version using this command : python -m pip install -U pip)
       
       e)  python -m pip install win_inet_pton
+      
+      f)  python -m pip install gephistreamer
  
 ---------------------------------
 II- Dataset Preparation
@@ -54,13 +56,15 @@ II- Dataset Preparation
  
  1. Download and extract the zip from the github repository to DeepDAD Folder
  
- 2.  <<DeepDAD_Path>>:>    C:\python27\Python.exe GUI.py
+ 2.  <<DeepDAD_Path>>:>   $Path_python3_executable GUI.py
  
  3.  Select pcap File using Browse buton
  
  4. Set Packet Max. Count to 10000000
  
- 5. Click Start Parse
+ 5. Select Display as Bot Only
+ 
+ 6. Click Start Parse
  
  
            
