@@ -66,6 +66,19 @@ II- Dataset Preparation
  
  6. Click Start Parse
  
+ Optional:
+ ----------------------------------
+ 
+ To use gephi streamer
+ 
+ 1. Run gephi (0.9.2) with administrative priveleges
+ 2. Install Plugin : Graph Streaming if not already installed
+ 3. Start Master Server
+  4. Go to GUI and click export to gephi
+ 
+ 
+ 
+  
  
            
  
