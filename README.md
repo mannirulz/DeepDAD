@@ -71,7 +71,7 @@ II- Dataset Preparation
  
  To use gephi streamer
  
- 1. Run gephi (0.9.2) with administrative priveleges
+ 1. Run gephi (0.9.2) with administrative privileges
  2. Install Plugin : Graph Streaming if not already installed
  3. Start Master Server
   4. Go to GUI and click export to gephi
