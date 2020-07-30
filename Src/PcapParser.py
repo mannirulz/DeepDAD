@@ -217,6 +217,7 @@ class PcapParser:
     # Insert or update existing query with response code and other fields
     def update_response(self,  tid, reqIP, reqURL, reqType, rescode, ttl, resolvedIp, receivedtimestamp):
         try:
+            # Ignore duplicate responses from gateway and DNS server due to recursive queries
             if reqIP == "172.31.1.6" or reqIP == "172.31.3.121":
                 return 0
             if self.mode == 3:
